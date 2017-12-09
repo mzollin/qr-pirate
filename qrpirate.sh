@@ -4,9 +4,9 @@
 
 # convert all images to PNG
 printf "converting images to PNG. this may take a while...\n"
-for PATHNAME in ./qrbooty/google/*; do FILENAME=$(basename "$PATHNAME"); mv "$PATHNAME" "./qrbooty/google_$FILENAME"; done
-for PATHNAME in ./qrbooty/bing/*; do FILENAME=$(basename "$PATHNAME"); mv "$PATHNAME" "./qrbooty/bing_$FILENAME"; done
-for PATHNAME in ./qrbooty/baidu/*; do FILENAME=$(basename "$PATHNAME"); mv "$PATHNAME" "./qrbooty/baidu_$FILENAME"; done
+for pathname in ./qrbooty/google/*; do filename=$(basename "$pathname"); mv "$pathname" "./qrbooty/google_$filename"; done
+for pathname in ./qrbooty/bing/*; do filename=$(basename "$pathname"); mv "$pathname" "./qrbooty/bing_$filename"; done
+for pathname in ./qrbooty/baidu/*; do filename=$(basename "$pathname"); mv "$pathname" "./qrbooty/baidu_$filename"; done
 mogrify -format png ./qrbooty/*.*
 printf "converting done.\n\n"
 
