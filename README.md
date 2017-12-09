@@ -13,6 +13,5 @@ You can use the qrpirate.sh bash script to automate the whole process from searc
 
 4. Remove duplicates in keylist.txt and output them to a keylist_unique.txt file
 
-**usage: ./qrpirate.sh "bitcoin qr"**
-
+**usage: ./qrpirate.sh "bitcoin qr"**<br>
 **output: keylist_unique.txt**
