@@ -7,7 +7,7 @@ You can use the qrpirate.sh bash script to automate the whole process from searc
 
 1. Call qrcrawler.py with the provided search keywords as an argument to crawl google, bing and baidu for images. They will be downloaded to a qrbooty folder with subfolders for every search engine.
 
-2. Rename and move the files up from the subfolders to the qrbooty folder and convert them all to PNG format using mogrify.
+2. Rename and move the files up from the subfolders to the qrbooty folder with unique names.
 
 3. Call qr2key.py to scan the downloaded images in the qrbooty folder for QR-codes and check if they contain Bitcoin private keys. The keys will be saved in a keylist.txt file.
 

@@ -9,11 +9,11 @@ count_qrcodes = 0
 count_privkeys = 0
 
 with open('./keylist.txt', 'a') as key_list:
-    print('scanning PNG images for QR codes with bitcoin private keys...')
-    for png_path in glob.glob('./qrbooty/*.png'):
-        with open(png_path, 'rb') as png_file:
+    print('scanning images for QR codes with bitcoin private keys...')
+    for image_path in glob.glob('./qrbooty/*.*'):
+        with open(image_path, 'rb') as image_file:
             count_images += 1
-            image = Image.open(png_file)
+            image = Image.open(image_file)
             image.load()
             codes = zbarlight.scan_codes('qrcode', image)
             for code in (codes or []):
