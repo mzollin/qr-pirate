@@ -19,9 +19,9 @@ with open('./keylist.txt', 'a') as key_list:
          for code in (codes or []):
             count_qrcodes += 1
             # TODO: match only BASE58 chars
-            if(re.match('5(H|J|K).{49}$', code) or   # match private key (WIF, uncompressed pubkey): length 51, BASE58
-               re.match('(K|L).{51}$', code) or      # match private key (WIF, compressed pubkey): length 52, BASE58
-               re.match('S(.{21}|.{29})$', code)):   # match mini private key: length 30 or 22 (deprecated), BASE58
+            if (re.match(r'5(H|J|K).{49}$', code) or   # match private key (WIF, uncompressed pubkey): length 51, BASE58
+                re.match(r'(K|L).{51}$', code) or      # match private key (WIF, compressed pubkey): length 52, BASE58
+                re.match(r'S(.{21}|.{29})$', code)):   # match mini private key: length 22 (deprecated) or 30, BASE58
                count_privkeys += 1
                key_list.write(code + '\n')
                print('potential booty found!: %s' % code)
