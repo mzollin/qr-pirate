@@ -1,8 +1,4 @@
 #!/bin/bash
-
-# provide wallet address
-# ask for confirmation of wallet address?
-
 # crawling search engines for images matching description
 ./qrcrawler.py "$1"
 
@@ -18,4 +14,4 @@ printf "converting done.\n\n"
 ./qr2key.py
 
 # remove duplicates
-# feed electrum
+sort keylist.txt | uniq > keylist_unique.txt
