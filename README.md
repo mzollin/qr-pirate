@@ -15,3 +15,8 @@ You can use the qrpirate.sh bash script to automate the whole process from searc
 
 **usage: ./qrpirate.sh "bitcoin qr"**<br>
 **output: keylist_unique.txt**
+
+Python dependencies:
+- icrawler
+- pillow
+- zbarlight
