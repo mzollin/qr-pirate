@@ -17,8 +17,8 @@ You can use the qrpirate.sh bash script to automate the whole process from searc
 4. Remove duplicates in keylist.txt and output them to a keylist_unique.txt file
 
 **setup:**
-- sudo apt install python3-dev libzbar0 libzbar-dev
-- pip install -r requirements.txt
+- sudo apt install python3-dev python3-setuptools pip3 libzbar0 libzbar-dev
+- pip3 install -r requirements.txt
 
 **usage:** ./qrpirate.sh "bitcoin qr"<br>
 **output:** keylist_unique.txt
