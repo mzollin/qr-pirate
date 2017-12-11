@@ -26,6 +26,6 @@ with open('./keylist.txt', 'a') as key_list:
                     count_privkeys += 1
                     key_list.write(code + '\n')
                     print('potential booty found!: %s' % code)
-   print('qr2key done. scanned %s images, with %s QR codes containing %s bitcoin private keys' % (count_images, count_qrcodes, count_privkeys))
-   print('saved private keys to keylist.txt')
+    print('qr2key done. scanned %s images, with %s QR codes containing %s bitcoin private keys' % (count_images, count_qrcodes, count_privkeys))
+    print('saved private keys to keylist.txt')
    
