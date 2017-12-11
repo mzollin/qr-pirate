@@ -14,8 +14,14 @@ with open('./keylist.txt', 'a') as key_list:
         with open(image_path, 'rb') as image_file:
             count_images += 1
             image = Image.open(image_file)
-            image.load()
-            codes = zbarlight.scan_codes('qrcode', image)
+            try:
+                image.load()
+            except OSError as e:
+                print("Invalid image: {}".format(e))
+            try:
+                codes = zbarlight.scan_codes('qrcode', image)
+            except SyntaxError as e:
+                print("Could not decode: {}".format(e))
             for code in (codes or []):
                 code = code.decode('ascii', errors='replace')
                 count_qrcodes += 1
