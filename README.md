@@ -17,8 +17,8 @@ You can use the qrpirate.sh bash script to automate the whole process from searc
 - sudo apt install python3-dev libzbar0 libzbar-dev
 - pip install -r requirements.txt
 
-**usage: ./qrpirate.sh "bitcoin qr"**<br>
-**output: keylist_unique.txt**
+**usage:** ./qrpirate.sh "bitcoin qr"<br><br>
+**output:** keylist_unique.txt
 
 Python dependencies:
 - icrawler
