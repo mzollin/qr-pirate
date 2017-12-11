@@ -6,13 +6,14 @@ crawl QR-codes from search engines and look for Bitcoin wallet private keys
 
 **Disclaimer: You probably won't find any private keys of wallets that still contain Bitcoins. If you do, please leave them where they are, this tool is for demonstration purposes only. Also don't put photos of your private keys on the internet.**
 
-**setup:**
+## Setup and usage:
 - sudo apt install python3-dev python3-setuptools pip3 libzbar0 libzbar-dev
 - pip3 install -r requirements.txt
 
-**usage:** ./qrpirate.sh "bitcoin qr"<br>
+**example usage:** ./qrpirate.sh "bitcoin qr"<br>
 **output:** keylist_unique.txt
 
+## Details
 You can use the qrpirate.sh bash script to automate the whole process from search keyword input to private key output, or use the qrcrawler.py and qr2key.py tools on their own. The bash script automates the following steps:
 
 1. Call qrcrawler.py with the provided search keywords as an argument to crawl google, bing and baidu for images. They will be downloaded to a qrbooty folder with subfolders for every search engine.
@@ -23,7 +24,7 @@ You can use the qrpirate.sh bash script to automate the whole process from searc
 
 4. Remove duplicates in keylist.txt and output them to a keylist_unique.txt file
 
-Python dependencies:
+## Python dependencies:
 - icrawler
 - pillow
 - zbarlight
