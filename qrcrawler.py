@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from icrawler.builtin import GoogleImageCrawler, BingImageCrawler, BaiduImageCrawler
 import sys
 import time

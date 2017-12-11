@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from PIL import Image
 import zbarlight
 import glob
@@ -28,3 +28,4 @@ with open('./keylist.txt', 'a') as key_list:
                     print('potential booty found!: %s' % code)
    print('qr2key done. scanned %s images, with %s QR codes containing %s bitcoin private keys' % (count_images, count_qrcodes, count_privkeys))
    print('saved private keys to keylist.txt')
+   
