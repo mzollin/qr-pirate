@@ -9,7 +9,6 @@ crawl QR-codes from search engines and look for Bitcoin wallet private keys
 ## Setup and usage:
 - sudo apt install python3-dev python3-setuptools python3-pip libzbar0 libzbar-dev
 - pip3 install -r requirements.txt
-- chmod +x qrpirate.sh
 
 **example usage:** ./qrpirate.sh "bitcoin qr"<br>
 **output:** keylist_unique.txt
