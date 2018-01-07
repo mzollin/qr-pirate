@@ -42,5 +42,5 @@ with open('./keylist.txt', 'a') as key_list:
                         pass
                     except ValueError as e:
                         print("Value Error: {}".format(e))
-    print("qr2key done. scanned {} images, with {} QR codes containing {} bitcoin private keys".format(count_images, count_qrcodes, count_privkeys))
+    print("qr2key done. scanned {} images, with {} QR codes containing {} bitcoin private keys".format(counter_images, counter_qrcodes, counter_privkeys))
     print("saved private keys to keylist.txt")
