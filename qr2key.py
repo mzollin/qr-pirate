@@ -18,7 +18,7 @@ with open('./keylist.txt', 'a') as key_list:
             image = Image.open(image_file)
             try:
                 image.load()
-            except OSError as e:
+            except (OSError, IOError) as e:
                 print("Invalid image: {}".format(e))
             try:
                 codes = zbarlight.scan_codes('qrcode', image)
