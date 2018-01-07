@@ -15,7 +15,7 @@ crawl QR-codes from search engines and look for Bitcoin wallet private keys
 **example usage:** ./qrpirate.sh "bitcoin qr"<br>
 **output:** keylist_unique.txt
 <br>
-Private keys belonging to wallets with non-zero balance will be output on the terminal.
+The balance of the wallet belonging to each found private key will be output on the terminal.
 
 ## Details
 You can use the qrpirate.sh bash script to automate the whole process from search keyword input to private key output, or use the qrcrawler.py and qr2key.py tools on their own. The bash script automates the following steps:
