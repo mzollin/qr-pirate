@@ -5,7 +5,7 @@ bitmerchant==0.1.8
 cachetools==2.0.1
 certifi==2017.11.5
 chardet==3.0.4
-commontools==0.1.0
+commontools==0.1.1
 ecdsa==0.13
 icrawler==0.4.8
 idna==2.6
