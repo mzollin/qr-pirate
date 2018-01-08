@@ -1,4 +1,5 @@
 # qr-pirate
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Updates](https://pyup.io/repos/github/mzollin/qr-pirate/shield.svg)](https://pyup.io/repos/github/mzollin/qr-pirate/)
 [![Python 3](https://pyup.io/repos/github/mzollin/qr-pirate/python-3-shield.svg)](https://pyup.io/repos/github/mzollin/qr-pirate/)
 <br>
