@@ -1,3 +1,6 @@
+# Copyright (c) 2018 Marco Zollinger
+# Licensed under MIT, the license file shall be included in all copies
+
 #!/bin/bash
 # crawling search engines for images matching description
 ./qrcrawler.py "$1"
