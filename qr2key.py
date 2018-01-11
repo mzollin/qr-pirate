@@ -1,3 +1,6 @@
+# Copyright (c) 2018 Marco Zollinger
+# Licensed under MIT, the license file shall be included in all copies
+
 #!/usr/bin/env python2
 from PIL import Image
 from pybitcoin import BitcoinPrivateKey
