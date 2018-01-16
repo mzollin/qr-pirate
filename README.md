@@ -1,17 +1,12 @@
 # qr-pirate
-<img align="left" src="qrpirate.png" alt="qr-pirate logo">
-
-**crawl QR-codes from search engines and look for Bitcoin wallet private keys**
-
-<br>
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Updates](https://pyup.io/repos/github/mzollin/qr-pirate/shield.svg)](https://pyup.io/repos/github/mzollin/qr-pirate/)
-[![Python 3](https://pyup.io/repos/github/mzollin/qr-pirate/python-3-shield.svg)](https://pyup.io/repos/github/mzollin/qr-pirate/)
-
-<br>
-
-**Disclaimer: You probably won't find any private keys of wallets that still contain Bitcoins. If you do, please leave them where they are, this tool is for demonstration purposes only. Also don't put photos of your private keys on the internet.**
+<p>
+  <img alt="qr-pirate logo"src="qrpirate.png" align="left" >
+  <b>crawl QR-codes from search engines and look for Bitcoin wallet private keys</b><br>
+  <a href="https://opensource.org/licenses/MIT"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  <a href="https://pyup.io/repos/github/mzollin/qr-pirate"><img alt="Updates" src="https://pyup.io/repos/github/mzollin/qr-pirate/shield.svg">
+  <a href="https://pyup.io/repos/github/mzollin/qr-pirate"><img alt="Python3" src="https://pyup.io/repos/github/mzollin/qr-pirate/python-3-shield.svg"><br>
+  <b>Disclaimer: You probably won't find any private keys of wallets that still contain Bitcoins. If you do, please leave them where they are, this tool is for demonstration purposes only. Also don't put photos of your private keys on the internet.</b>
+<p>
 
 ## Setup and usage:
 - sudo apt install python3-dev python3-setuptools python3-pip libzbar0 libzbar-dev
