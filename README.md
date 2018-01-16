@@ -6,7 +6,7 @@
   <a href="https://pyup.io/repos/github/mzollin/qr-pirate"><img alt="Updates" src="https://pyup.io/repos/github/mzollin/qr-pirate/shield.svg"></a>
   <a href="https://pyup.io/repos/github/mzollin/qr-pirate"><img alt="Python3" src="https://pyup.io/repos/github/mzollin/qr-pirate/python-3-shield.svg"></a><br>
   <b>Disclaimer: You probably won't find any private keys of wallets that still contain Bitcoins. If you do, please leave them where they are, this tool is for demonstration purposes only. Also don't put photos of your private keys on the internet.</b>
-<p>
+<p><br>
 (Having issues with using python3 for some dependencies. If you care, use the "stable"-python3 branch without wallet balance checking. This will probably be fixed soon)
 
 ## Setup and usage:
