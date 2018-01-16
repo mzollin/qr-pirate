@@ -6,9 +6,8 @@
 [![Python 3](https://pyup.io/repos/github/mzollin/qr-pirate/python-3-shield.svg)](https://pyup.io/repos/github/mzollin/qr-pirate/)
 <br>
 **crawl QR-codes from search engines and look for Bitcoin wallet private keys**
-(Having issues with using python3 for some dependencies. If you care, use the "stable"-python3 branch without wallet balance checking. This will probably be fixed soon)
-
-
+<br>
+**Disclaimer: You probably won't find any private keys of wallets that still contain Bitcoins. If you do, please leave them where they are, this tool is for demonstration purposes only. Also don't put photos of your private keys on the internet.**
 
 ## Setup and usage:
 - sudo apt install python3-dev python3-setuptools python3-pip libzbar0 libzbar-dev
