@@ -1,7 +1,8 @@
+#!/usr/bin/env python3
+
 # Copyright (c) 2018 Marco Zollinger
 # Licensed under MIT, the license file shall be included in all copies
 
-#!/usr/bin/env python3
 from icrawler.builtin import GoogleImageCrawler, BingImageCrawler, BaiduImageCrawler
 import sys
 import time
