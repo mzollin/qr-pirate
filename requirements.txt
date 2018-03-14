@@ -11,7 +11,7 @@ icrawler==0.5.0
 idna==2.6
 keychain==0.14.2.0
 keylib==0.1.1
-lxml==4.1.1
+lxml==4.2.0
 olefile==0.45.1
 Pillow==5.0.0
 pybitcoin==0.9.9
