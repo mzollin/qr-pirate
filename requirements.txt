@@ -20,4 +20,4 @@ requests==2.18.4
 six==1.11.0
 urllib3==1.22
 utilitybelt==0.2.6
-zbarlight==2.0
+zbarlight==2.1
