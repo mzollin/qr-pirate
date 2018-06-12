@@ -8,7 +8,7 @@ chardet==3.0.4
 commontools==0.1.1
 ecdsa==0.13
 icrawler==0.6.2
-idna==2.6
+idna==2.7
 keychain==0.14.2.0
 keylib==0.1.1
 lxml==4.2.1
