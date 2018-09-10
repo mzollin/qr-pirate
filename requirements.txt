@@ -12,7 +12,7 @@ idna==2.7
 keychain==0.14.2.0
 keylib==0.1.1
 lxml==4.2.4
-olefile==0.45.1
+olefile==0.46
 Pillow==5.2.0
 pybitcoin==0.9.9
 python-bitcoinrpc==1.0
