@@ -19,7 +19,7 @@ with open('./keylist.txt', 'a') as key_list:
     for image_path in glob.glob('./qrbooty/*.*'):
         with open(image_path, 'rb') as image_file:
             counter_images += 1
-            image = Image.open(image_file)
+            image = Image.open(image_file).convert('RGBA')
             try:
                 image.load()
             except (OSError, IOError, ValueError) as e:
