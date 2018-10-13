@@ -22,12 +22,14 @@ with open('./keylist.txt', 'a') as key_list:
             image = Image.open(image_file)
             try:
                 image.load()
-            except (OSError, IOError) as e:
+            except (OSError, IOError, ValueError) as e:
                 print("Invalid image: {}".format(e))
+                continue
             try:
                 codes = zbarlight.scan_codes('qrcode', image)
             except SyntaxError as e:
                 print("Could not decode: {}".format(e))
+                continue
             for code in (codes or []):
                 code = code.decode('ascii', errors='replace')
                 counter_qrcodes += 1
@@ -42,9 +44,7 @@ with open('./keylist.txt', 'a') as key_list:
                         req = requests.get('https://blockchain.info/q/addressbalance/{}?confirmations=1'.format(pub_addr))
                         key_list.write(code + '\n')
                         print("booty found!: {} satoshi contained in key {}".format(req.json(), code))
-                    except (AssertionError, IndexError):
-                        pass
-                    except ValueError as e:
-                        print("Value Error: {}".format(e))
+                    except (AssertionError, IndexError, ValueError) as e:
+                        print("Address lookup error: {}".format(e))
     print("qr2key done. scanned {} images, with {} QR codes containing {} bitcoin private keys".format(counter_images, counter_qrcodes, counter_privkeys))
     print("saved private keys to keylist.txt")
