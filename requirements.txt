@@ -3,7 +3,7 @@ beautifulsoup4==4.6.3
 bitcoin==1.1.42
 bitmerchant==0.1.8
 cachetools==2.1.0
-certifi==2018.8.24
+certifi==2018.10.15
 chardet==3.0.4
 commontools==0.1.1
 ecdsa==0.13
