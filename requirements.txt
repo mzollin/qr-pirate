@@ -16,7 +16,7 @@ olefile==0.46
 Pillow==5.3.0
 pybitcoin==0.9.9
 python-bitcoinrpc==1.0
-requests==2.19.1
+requests==2.20.0
 six==1.11.0
 urllib3==1.24
 utilitybelt==0.2.6
