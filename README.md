@@ -21,13 +21,13 @@ The balance of the wallet associated with each found private key will be output 
 ## Details
 You can use the qrpirate.sh bash script to automate the whole process from search keyword input to private key output, or use the qrcrawler.py and qr2key.py tools on their own. <b>The bash script automates the following steps:</b>
 
-1. Call qrcrawler.py with the provided search keywords as an argument to crawl google, bing and baidu for images. They will be downloaded to a qrbooty folder with subfolders for every search engine.
+1. Calls qrcrawler.py with the provided search keywords as an argument to crawl google, bing and baidu for images. They will be downloaded to a qrbooty folder with subfolders for every search engine.
 
-2. Rename and move the files up from the subfolders to the qrbooty folder with unique names.
+2. Renames and moves the files up from the subfolders to the qrbooty folder with unique names.
 
-3. Call qr2key.py to scan the downloaded images in the qrbooty folder for QR-codes and check if they contain Bitcoin wallet private keys. The keys will be saved in a keylist.txt file.
+3. Calls qr2key.py to scan the downloaded images in the qrbooty folder for QR-codes and checks if they contain Bitcoin wallet private keys. The keys will be saved in a keylist.txt file.
 
-4. Remove duplicates in keylist.txt and output the unique keys to a keylist_unique.txt file
+4. Removes duplicates in keylist.txt and outputs the unique keys to a keylist_unique.txt file
 
 ## Python dependencies:
 - icrawler
