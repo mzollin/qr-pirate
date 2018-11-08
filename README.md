@@ -19,7 +19,7 @@
 The balance of the wallet associated with each found private key will be output on the terminal.
 
 ## Details
-You can use the qrpirate.sh bash script to automate the whole process from search keyword input to private key output, or use the qrcrawler.py and qr2key.py tools on their own. The bash script automates the following steps:
+You can use the qrpirate.sh bash script to automate the whole process from search keyword input to private key output, or use the qrcrawler.py and qr2key.py tools on their own. <b>The bash script automates the following steps:</b>
 
 1. Call qrcrawler.py with the provided search keywords as an argument to crawl google, bing and baidu for images. They will be downloaded to a qrbooty folder with subfolders for every search engine.
 
