@@ -1,4 +1,4 @@
-base58==1.0.2
+base58==1.0.3
 beautifulsoup4==4.6.3
 bitcoin==1.1.42
 bitmerchant==0.1.8
