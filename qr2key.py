@@ -22,7 +22,7 @@ with open('./keylist.txt', 'a') as key_list:
             try:
                 image = Image.open(image_file).convert('RGBA')
                 image.load()
-            except (OSError, IOError, ValueError) as e:
+            except (OSError, IOError, ValueError, AttributeError) as e:
                 print("Invalid image: {}".format(e))
                 continue
             try:
