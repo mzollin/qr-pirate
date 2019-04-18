@@ -1,10 +1,11 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 # Copyright (c) 2018 Marco Zollinger
 # Licensed under MIT, the license file shall be included in all copies
 
 from PIL import Image
-from pybitcoin import BitcoinPrivateKey
+from pycoin.key import Key
+from pycoin.encoding import EncodingError
 import requests
 import zbarlight
 import glob
@@ -39,12 +40,11 @@ with open('./keylist.txt', 'a') as key_list:
                    re.match(r'[1-9A-HJ-NP-Za-km-z]+', code)):  # match only BASE58
                     counter_privkeys += 1
                     try:
-                        priv_key = BitcoinPrivateKey(code)
-                        pub_addr = priv_key.public_key().address()
-                        req = requests.get('https://blockchain.info/q/addressbalance/{}?confirmations=1'.format(pub_addr))
+                        key = Key.from_text(code)
+                        req = requests.get('https://blockchain.info/q/addressbalance/{}?confirmations=1'.format(key.address()))
                         key_list.write(code + '\n')
                         print("booty found!: {} satoshi contained in key {}".format(req.json(), code))
-                    except (AssertionError, IndexError, ValueError) as e:
+                    except (AssertionError, EncodingError, IndexError, ValueError) as e:
                         print("Address lookup error: {}".format(e))
     print("qr2key done. scanned {} images, with {} QR codes containing {} bitcoin private keys".format(counter_images, counter_qrcodes, counter_privkeys))
     print("saved private keys to keylist.txt")
