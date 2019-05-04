@@ -5,7 +5,6 @@ icrawler==0.6.2
 idna==2.8
 lxml==4.3.3
 Pillow==6.0.0
-pkg-resources==0.0.0
 pycoin==0.80
 requests==2.21.0
 six==1.12.0
