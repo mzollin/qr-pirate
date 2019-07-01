@@ -32,4 +32,4 @@ You can use the qrpirate.sh bash script to automate the whole process from searc
 - icrawler
 - pillow
 - zbarlight
-- pybitcoin
+- pycoin
