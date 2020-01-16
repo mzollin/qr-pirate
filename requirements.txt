@@ -7,7 +7,7 @@ lxml==4.4.2
 Pillow==7.0.0
 pycoin==0.90.20190728
 requests==2.22.0
-six==1.13.0
+six==1.14.0
 soupsieve==1.9.5
 urllib3==1.25.7
 zbarlight==2.3
