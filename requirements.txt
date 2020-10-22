@@ -4,7 +4,7 @@ chardet==3.0.4
 icrawler==0.6.3
 idna==2.10
 lxml==4.5.2
-Pillow==7.2.0
+Pillow==8.0.1
 pycoin==0.90.20200809
 requests==2.24.0
 six==1.15.0
