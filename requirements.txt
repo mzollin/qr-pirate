@@ -5,7 +5,7 @@ icrawler==0.6.3
 idna==2.10
 lxml==4.6.1
 Pillow==8.0.1
-pycoin==0.90.20200809
+pycoin==0.90.20201031
 requests==2.24.0
 six==1.15.0
 soupsieve==2.0.1
