@@ -9,5 +9,5 @@ pycoin==0.90.20201031
 requests==2.27.1
 six==1.16.0
 soupsieve==2.3.1
-urllib3==1.26.7
+urllib3==1.26.8
 zbarlight==2.3
