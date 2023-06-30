@@ -1,7 +1,7 @@
 beautifulsoup4==4.12.2
 certifi==2022.12.7
 chardet==5.1.0
-icrawler==0.6.6
+icrawler==0.6.7
 idna==3.4
 lxml==4.9.2
 Pillow==9.5.0
