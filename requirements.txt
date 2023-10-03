@@ -1,13 +1,13 @@
 beautifulsoup4==4.12.2
-certifi==2022.12.7
-chardet==5.1.0
+certifi==2023.7.22
+chardet==5.2.0
 icrawler==0.6.7
 idna==3.4
 lxml==4.9.3
-Pillow==10.0.0
+Pillow==10.0.1
 pycoin==0.92.20230326
 requests==2.31.0
 six==1.16.0
-soupsieve==2.4.1
+soupsieve==2.5
 urllib3==2.0.6
 zbarlight==2.3
