@@ -1,5 +1,5 @@
 beautifulsoup4==4.12.3
-certifi==2024.7.4
+certifi==2024.8.30
 chardet==5.2.0
 icrawler==0.6.9
 idna==3.8
