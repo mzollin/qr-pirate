@@ -7,7 +7,7 @@ lxml==5.3.0
 Pillow==11.0.0
 pycoin==0.92.20241201
 requests==2.32.3
-six==1.16.0
+six==1.17.0
 soupsieve==2.6
 urllib3==2.2.3
 zbarlight==2.3
