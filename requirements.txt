@@ -1,4 +1,4 @@
-beautifulsoup4==4.12.3
+beautifulsoup4==4.13.1
 certifi==2024.12.14
 chardet==5.2.0
 icrawler==0.6.9
