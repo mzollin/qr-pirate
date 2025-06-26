@@ -3,7 +3,7 @@ certifi==2025.6.15
 chardet==5.2.0
 icrawler==0.6.10
 idna==3.10
-lxml==5.4.0
+lxml==6.0.0
 Pillow==11.2.1
 pycoin==0.92.20241201
 requests==2.32.4
