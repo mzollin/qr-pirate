@@ -6,7 +6,7 @@ idna==3.10
 lxml==6.0.0
 Pillow==11.3.0
 pycoin==0.92.20241201
-requests==2.32.4
+requests==2.32.5
 six==1.17.0
 soupsieve==2.7
 urllib3==2.5.0
