@@ -8,6 +8,6 @@ Pillow==12.1.0
 pycoin==0.92.20241201
 requests==2.32.5
 six==1.17.0
-soupsieve==2.8.1
+soupsieve==2.8.3
 urllib3==2.6.3
 zbarlight==2.3
