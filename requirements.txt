@@ -1,6 +1,6 @@
 beautifulsoup4==4.14.3
 certifi==2026.1.4
-chardet==5.2.0
+chardet==6.0.0.post1
 icrawler==0.6.10
 idna==3.11
 lxml==6.0.2
