@@ -2,7 +2,7 @@ beautifulsoup4==4.15.0
 certifi==2026.5.20
 chardet==7.4.3
 icrawler==0.6.10
-idna==3.11
+idna==3.18
 lxml==6.1.1
 Pillow==12.2.0
 pycoin==0.92718.20260405
