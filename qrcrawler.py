@@ -7,6 +7,10 @@ from icrawler.builtin import GoogleImageCrawler, BingImageCrawler, BaiduImageCra
 import sys
 import time
 
+if len(sys.argv) < 2:
+    print('usage: qrcrawler.py KEYWORDS', file=sys.stderr)
+    sys.exit(2)
+
 keywords = sys.argv[1]
 print('crawling search engines for images with description %s...' %keywords)
 time.sleep(2)
